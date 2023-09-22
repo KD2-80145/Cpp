@@ -1,4 +1,5 @@
 #include <iostream>
+#include<bits/stdc++.h>
 using namespace std;
 class Student
 {
@@ -25,14 +26,14 @@ public:
     }
     void acceptStudentFromConsole()
     {
-        string name;
 
         cout << "Enter Roll No : ";
         cin >> this->roll_no;
 
         cout << "Enter Name : ";
 
-        cin>>this->name;
+        getline(cin>>ws,this->name);
+        // cin>>name;
 
         cout << "Enter Marks : ";
         cin >> this->marks;
