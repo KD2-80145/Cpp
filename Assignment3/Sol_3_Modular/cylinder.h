@@ -1,6 +1,6 @@
 #ifndef CYLINDER_H
 #define CYLINDER_h
-// #define PI 3.14f;
+#define PI 3.14
 #include<iostream>
 using namespace std;
 

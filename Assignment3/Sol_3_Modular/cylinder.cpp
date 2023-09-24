@@ -22,8 +22,7 @@
     }
     double Cylinder::getVolume()
     {
-        return 3.14 *( (this->radius) * (this->radius)) * this->height;
-        // return PI *( (this->radius) * (this->radius)) * this->height;
+        return PI *( (this->radius) * (this->radius)) * this->height;
     }
 
     //MUTATORS
@@ -45,5 +44,5 @@
     //FACILITATOR
     void Cylinder::printVolume()
     {
-        cout<<"VOLUME OF BOX : "<<this->getVolume()<<endl;
+        cout<<"VOLUME OF CYLINDER : "<<this->getVolume()<<endl;
     }
