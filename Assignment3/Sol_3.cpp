@@ -59,7 +59,6 @@ public:
 enum Emenu
 {
     EXIT,
-    
     GET_RADIUS,
     GET_HEIGHT,
     GET_VOLUME,
